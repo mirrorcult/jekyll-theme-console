@@ -13,6 +13,8 @@ layout: default
     {% endfor %}
 </div>
 
-{% include read_time.html %}
+<div class="reading-time">
+    time to read: {% include read_time.html %}
+</div>
 
 {{ content }}
